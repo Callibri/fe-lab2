@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тихенко Микола Русланович, група ІМ-42, Лаб. робота №2, варіант 7</title>
+
+  <style>
+    table.var7 { border-collapse: collapse; width: 600px; }
+    table.var7 td {
+      border: 2px solid #444;
+      padding: 8px;
+      height: 40px;
+      text-align: center;
+    }
+    .row1 td { background-color: #078f8f; color: #000; }
+    .row2 td { background-color: #f5f507; color: #000; }
+    .row1:hover td { background-color: #f5f507; }
+    .row2:hover td { background-color: #078f8f; }
+  </style>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Завдання 1. Таблиця (варіант 7)</h2>
+
+  <table class="var7">
+    <colgroup><col style="width:160px"><col style="width:160px"><col style="width:130px"><col style="width:150px"></colgroup>
+    <tr class="row1">
+      <td colspan="2" rowspan="2">Тихенко</td>
+      <td>Микола</td>
+      <td>Русланович</td>
+    </tr>
+    <tr class="row2">
+      <td>Група ІМ-42</td>
+      <td>ЛР-2 Варіант 7</td>
+    </tr>
+    <tr>
+      <td colspan="2"></td>
+      <td></td>
+      <td rowspan="2"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <h2>Завдання 2. Годинник (варіант 7)</h2>
+
+  <div class="pair">
+    <div>
+      <p>Спосіб 1: position</p>
+      <div class="clock p-clock">
+        <span class="dot dot-12"></span>
+        <span class="dot dot-3"></span>
+        <span class="dot dot-6"></span>
+        <span class="dot dot-9"></span>
+        <span class="hand hand-minute"></span>
+        <span class="hand hand-hour"></span>
+      </div>
+    </div>
+
+    <div>
+      <p>Спосіб 2: transform</p>
+      <div class="clock t-clock">
+        <span class="dot dot-12"></span>
+        <span class="dot dot-3"></span>
+        <span class="dot dot-6"></span>
+        <span class="dot dot-9"></span>
+        <span class="hand hand-minute"></span>
+        <span class="hand hand-hour"></span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
